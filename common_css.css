@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+@media(max-width:599px){
+    header{width: 100%; height: 140px; margin:0 auto; text-align: center; position: relative; top: 10px; border-bottom: 1px solid #eee;}
+
+    .logo{width: 35%; height: 30%; margin: 0 auto;}
+    .logo img{width: 100%; height: 100%;}
+
+    .seach{width:130px; height: 30px; float: right; position: relative; top:50px; left: 90px;}
+    .seach input{width:80px; height: 30px; color:#000; border:none; float: left; border-bottom:1px solid #ddd;  background-color: transparent;}
+    .seach input:focus {outline:none; transform: scaleX(1.2);  transition:0.7s;}
+    .seach button{width: 30px; height: 30px; float: right; cursor: pointer;}
+    .seach img {width: 100%; height: 100%; border: none;}
+    
+    .sns{width: 95px; height: 15px; float:right; position: relative; bottom: 30px;}
+    .sns img{width: 10px; height: 10px; cursor: pointer;}
+
+    .menu{width: 150px; height: 100px; display: none; text-align: center; margin: 0 auto; background-color: transparent; font-size: 8px; position: relative; }
+    .menu_exit{display: none;}
+    nav{width: 100%; height: 50px;  text-align: center; margin: 0 auto; position: relative; bottom: 20px;} 
+    nav ul{width: 120px; display: flex; flex-direction: column; justify-content: space-between; margin: 0 auto;}
+    nav ul li{width: 100%; height: 15%; float: left; font-size: 16px; font-weight: bold; margin: 0 auto;}
+    nav ul li a:link{color:#13377d;}
+    nav ul li a:visited{color:#13377d;}
+    nav ul li a:hover{color:darkgoldenrod; transition: 1s;}
+    .menubar{width: 30px; height: 30px; border: none; float: left; position: relative; bottom: 40px; left: 50px;}
+    .menu_exit{width: 30px; height: 30px; position: relative; bottom: 70px; left: 50px;}
+    .menubar img, .menu_exit img {width: 100%; height: 100%; border: none; }
+    .menubar button, .menu_exit button{width: 100%; height: 100%;}
+
+    footer{width: 100%; height: 360px; margin: 100px 0 0 0; text-align: center; color:#888; border-top: 1px solid #eee; padding:20px 0 0 0;}
+    footer img{margin:0 0 20px 0;}
+    .foot_name{color:#000; font-weight: bold;}
+
+
+}
+
+@media(min-width:600px) and (max-width:1199px) {
+    header{width: 100%; height: 250px; margin:0 auto; text-align: center; position: relative; top: 10px; border-bottom: 1px solid #eee;}
+
+    .logo{width: 20%; height: 35%; margin: 0 auto;}
+    .logo img{width: 100%; height: 100%;}
+
+    .seach{width:20%; height: 15%; float: right; position: relative; bottom:30px; left: 75px;}
+    .seach input{width:70%; height: 30px; color:#000; border:none; float: left; border-bottom:1px solid #ddd; margin: 0 5% 0 0; background-color: transparent;}
+    .seach input:focus {outline:none; transform: scaleX(1.2);  transition:0.7s;}
+    .seach button{width: 25%; height: 100%; float: right; cursor: pointer;}
+    .seach img {width: 100%; height: 100%; border: none;}
+    
+    .sns{width: 80PX; height: 25PX; float:right; position: relative; bottom: 90px;}
+    .sns img{width: 15px; height: 15px; cursor: pointer;}
+
+    .menu{width: 100%; height: 100px; display: none; text-align: center; margin: 0 auto; background-color: transparent; position: relative; bottom:30px ;}
+    .menu_exit{display: none;}
+    nav{width: 100%; height: 10px;  text-align: center; margin: 0 auto; float: left;} 
+    nav ul{ display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between; margin: 50px 0 0 0 ;}
+    nav ul li{ width: 40%; height: 40%; float: left; font-size: 34px; font-weight: bold;}
+    nav ul li a:link{color:#13377d;}
+    nav ul li a:visited{color:#13377d;}
+    nav ul li a:hover{color:darkgoldenrod; transition: 1s;}
+    .menubar{width: 50px; height: 50px; border: none; float: left; position: relative; bottom:50px; left: 100px;}
+    .menu_exit{width: 50px; height: 50px;  position: relative; bottom:100px; left: 100px;}
+    .menubar img, .menu_exit img {width: 100%; height: 100%; border: none;}
+    .menubar button, .menu_exit button{width: 100%; height: 100%;}
+
+    footer{width: 100%; height: 360px; margin: 100px 0 0 0; text-align: center; color:#888; border-top: 1px solid #eee; padding:20px 0 0 0;}
+    footer img{margin:0 0 20px 0;}
+    .foot_name{color:#000; font-weight: bold;}
+
+}
+
+@media(min-width:1200px){
+    header{width: 1200px; height: 220px; margin:0 auto; text-align: center; position: relative; top: 10px; border-bottom: 1px solid #eee;} 
+
+    .logo{width: 210px; height: 100px; margin: 0 auto;}
+    .logo img{width: 100%; height: 100%;}
+
+    .seach{width:220px; height: 50px; float: right; position: relative; bottom: 40px; left: 130px;}
+    .seach input{width:150px; height: 30px; color:#000; border:none; float: left; border-bottom:1px solid #ddd;   background-color: transparent;}
+    .seach input:focus {outline:none; transform: scaleX(1.2);  transition:0.7s;}
+    .seach button{width: 30px; height: 30px; float: right;  cursor: pointer;}
+    .seach img {width: 100%; height: 100%; border: none;}
+    
+    .sns{width: 150px; height: 30px; float:right; position: relative; bottom:90px} 
+    .sns img{width: 20px; height: 20px; cursor: pointer;}
+
+    .menu{width: 1200px; height: 100px; display: none; text-align: center; margin: 0 auto; background-color: transparent; }
+    .menu_exit{display: none;}
+    nav{width: 100%; height: 100px;  text-align: center; margin: 0 auto; position: relative; float: left;} 
+    nav ul{ display: flex; flex-direction: row; justify-content: space-between; margin: 0 auto;}
+    nav ul li{ width: 20%; float: left; font-size: 34px; font-weight: bold; margin: 0 auto; text-align: center;}
+    nav ul li a:link{color:#13377d;}
+    nav ul li a:visited{color:#13377d;}
+    nav ul li a:hover{color:darkgoldenrod; transition: 1s;}
+    .menubar{width: 50px; height: 50px; margin: -70px 0 0 40px; border: none; float: left;}
+    .menu_exit{width: 50px; height: 50px; margin: -75px 0 0 37px;}
+    .menubar img, .menu_exit img {width: 100%; height: 100%; border: none;}
+    .menubar button, .menu_exit button{width: 100%; height: 100%;}
+
+    footer{width: 1200px; height: 360px; margin: 0 auto; text-align: center; color:#888; position: relative; top: 100px; border-top: 1px solid #eee; padding:20px 0 0 0;}
+    footer img{margin:0 0 20px 0;}
+    .foot_name{color:#000; font-weight: bold;}
+ }
