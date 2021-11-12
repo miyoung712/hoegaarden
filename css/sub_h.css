@@ -16,206 +16,13 @@ ul,ol,li {list-style:none; margin:0; padding:0;}
 
 @media(max-width:599px) {
 
-.slidewrap{width:100%; height:auto;overflow:hidden; margin:0 auto; margin-top:65px;}
-.slidewrap ul{width:calc(100% * 3);display:flex;transition:1s;}
-.slidewrap li{width:calc(100% / 3);height:auto;}
-.slidewrap li img {width:100%; height:100%;}
-
-.slidewrap input{display:none;}
-.slidewrap .sub_slide_button{position:absolute;bottom:455px;left:0;right:0;text-align:center;z-index:10;}
-.slidewrap .sub_slide_button label{width:12px;height:12px;border-radius:10px;;display:inline-block;background:none; border:2px solid #fff; font-size:0;transition:0.5s;cursor:pointer; margin:2px;}
-
-#pos1:checked ~ ul{margin-left:0;}
-#pos2:checked ~ ul{margin-left:-100%;}
-#pos3:checked ~ ul{margin-left:-200%;}
-
-#pos1:checked ~ .sub_slide_button label:nth-child(1),
-#pos2:checked ~ .sub_slide_button label:nth-child(2),
-#pos3:checked ~ .sub_slide_button label:nth-child(3){background:#666;}
-
-
-section {width:100%; height:auto; margin:0 auto; background-color:none;}
-
-.top_title {width:100%; height:100px; margin-top:-30px;display:flex; flex-wrap:wrap; justify-content: center; }
-.top_title h1 {font-family: "nanumsquare"; font-size:25px; color:#000; text-align: center; margin-top:76px;  }
-.top_title p {font-family: "nanumsquare"; font-size:18px; color:#999898;text-align: center; margin-top:7px; }
-
-
-
-#top_banner {width:100%; height:auto;  display:flex; 
-  margin:0 auto; margin-top:70px; justify-content:center; flex-flow:row wrap; align-items:center; }
-.top_banner_box {width:90%; height:490px; border-radius: 10px; background-color: #000; overflow: hidden; position:relative; display:inline-block; margin:10px;  }
-
-.top_banner_box img {width:100%; height:100%;}
-
-.top_textbox {float:left; width:100%; height:100%; background-color:#000; opacity:0;
-              transition:all 0.5 ease; position:absolute; top:0; left:0; 
-              display:flex; justify-content:space-around; align-items:center; }
-
-.top_textbox span {color:#fff; margin:30px 0 0 0px;  font-size:22px; font-family: "nanumsquare"; font-size:52px;
-        line-height:100%; position:absolute; top:150px; left:0; display:inline-block;
-        text-align:center; width:100%; bottom:10px; }    
-
- .top_textbox button {width:30%; height:40px; background-color:#000;  border:1px solid #fff; position:absolute; top:250px; left:0; right:0; margin:0 auto; display:inline-block; text-align:center;  font-family: "nanumsquare"; font-size:17px; color:#fff; padding:10px 0px;  letter-spacing:2px;  line-height:90%; }       
- 
-.top_textbox:hover { opacity:0.8; transition: 0.7s; cursor:pointer;}
-.top_textbox button:hover { opacity:0.8; transition: 0.7s; cursor:pointer;}
-
-
-.top_button {width: 90%; height:250px; border-radius: 20px; 
-            margin:0 auto; margin-top:50px; display:flex;   flex-direction:column; justify-content:space-around;
-            }
-#top_button_box {width: 100%; height: 63px; border-radius: 15px; background-color:#a6a6a6;position:relative;}  
-#top_button_box:hover {cursor: pointer; background-color:#000; transition: 0.7s;}
-#top_button_box p {font-family: "nanumsquare"; font-size:18px; color:#fff; line-height: 65px; text-align:center;}
-
-
-
-/* 호가든 오리지널 */
-#detail3 {width:100%; }
-#detail3 video {width:100%; height:auto; margin:0 auto;  margin-top:70px;}
-
-#hoegaarden_title {width:90%; height:auto; text-align: center; margin:100px auto 0;
-        display:flex; flex-direction: column; justify-content:space-around; align-items: center; }
-#hoegaarden_title p {font-family: "nanumsquare"; font-size:25px; color:737373;}
-#hoegaarden_title h3 {font-family: "nanumsquare"; font-size:35px; margin-top:10px; }
-
-#hoegaarden_title span {font-family: "twayair"; color:#2f65ec; letter-spacing: 7px;}
-#hoegaarden_title span:first-child {display:inline-block; transform:rotate(180deg); position:absolute; top:-24px;  position:relative;}
-
-
-.body_box_1 {width: 100%; height:630px; background-color:none; margin-top:83px;
-        display:flex; flex-direction: column; justify-content: space-around; }
-.body_box_1 img {width:100%; }
-.body_box_1 h3 {font-family: "nanumsquare"; font-size:32px; 
-              text-transform:uppercase;  color:#2f65ec; margin: 20px 0 0 20px;}
-.body_box_1 p {font-family: "nanumsquare"; font-size:22px; color:#363636;  
-             margin: 5px 0 0 20px;}
-
-.body_bottom_box_1 {width: 100%; height:1100px; background-color:none; margin:130px auto 0; position: relative; }
-.body_bottom_box_1 p{ font-size:12px; transform:rotate(90deg); display:inline-block;position:absolute; top:55px; left:-41px; margin:auto 0;
-        font-family: "nanumsquare"; font-size:20px; color:#7d7c7d;} 
-
-.body_bottom_box_1 #img_box {width:90%; height:auto; margin:0 auto; display:flex; flex-direction: column; }
-.body_bottom_box_1 img:first-child {width:421px; height:390px; margin:0 0 0 10px; margin-top:10px;}
-.body_bottom_box_1 img:nth-child(2) {width:100%; height:80px;margin:30px 0 0 10px;}
-.body_bottom_box_1 img:nth-child(3) {width:422px; height:600px; margin:30px 0 0 10px; }
-
-.product_box_1 {width: 100%; height:auto; background-color:none;
-               margin-top:40px; padding:20px;} 
-.product_box_1 h1 {font-family: "nanumsquare"; font-size:40px; color:#2f65ec; }
-.product_box_1 h2 {font-family: "nanumsquare"; font-size:28px; color:#000; margin: 10px 0 0 0px;}
-.product_box_1 h3 {font-family: "nanumsquare"; font-size:18px; color:#8d8c8d; margin: 12px 0 0 0px;}
-.product_box_1 p {font-family: "nanumsquare"; font-size:18px; color:#000;  line-height: 1.4; margin: 20px 0 0 0px; font-weight: bold;}
-
-.product_box_1 sup {font-family: "nanumsquare"; font-size:2px;color:#868487;}
-.product_line_1 {width:100%; height:260px; margin:20px auto; border-top:1px solid #bbbabc; position:relative; background-color:none;}
-
-/* 호가든 오리지널*/
-
-
-/* 호가든 보타닉 */
-#detail1 {width:100%; display:none;}
-#detail1 video {width:100%; height:auto; margin:0 auto;  margin-top:70px;}
-#botanic_title {width:90%; height:auto; text-align: center; margin:100px auto 0;
-        display:flex; flex-direction: column; justify-content:space-around; align-items: center; }
-#botanic_title p {font-family: "nanumsquare"; font-size:25px; color:737373;}
-#botanic_title h3 {font-family: "nanumsquare"; font-size:35px; margin-top:10px; }
-
-#botanic_title span {font-family: "twayair"; color:#9b59d3; letter-spacing: 7px;}
-#botanic_title span:first-child {display:inline-block; transform:rotate(180deg); position:absolute; top:-24px;  position:relative;}
-
-
-.body_box {width: 100%; height:630px; background-color:none; margin-top:83px;
-        display:flex; flex-direction: column; justify-content: space-around; }
-.body_box_1 img {width:100%; }
-.body_box h3 {font-family: "nanumsquare"; font-size:32px; 
-        text-transform:uppercase;  color:#9b59d3; margin: 20px 0 0 20px;}
-.body_box p {font-family: "nanumsquare"; font-size:22px; color:#363636;  
-        margin: 5px 0 0 20px;}
-.body_bottom_box {width: 100%; height:1100px; background-color:none; margin:130px auto 0; position: relative;}
-.body_bottom_box p{ font-size:12px; transform:rotate(90deg); display:inline-block;position:absolute; top:90px; left:-77px; margin:auto 0;
-        font-family: "nanumsquare"; font-size:20px; color:#7d7c7d;} 
-
-
-.body_bottom_box #img_box {width:90%; height:auto; margin:0 auto; display:flex; flex-direction: column; }
-.body_bottom_box img:first-child {width:421px; height:390px; margin:0 0 0 10px; margin-top:10px;}
-.body_bottom_box img:nth-child(2) {width:100%; height:90%; margin:30px 0 0 5px;}
-.body_bottom_box img:nth-child(3) {width:422px; height:600px; margin:30px 0 0 10px; }
-        
-
-.product_box  {width: 100%; height:auto; background-color:none;
-        margin-top:40px; padding:20px;} 
-.product_box h1 {font-family: "nanumsquare"; font-size:40px; color:#9b59d3; margin-top:40px;}
-.product_box h2{font-family: "nanumsquare"; font-size:28px; color:#000; margin: 10px 0 0 0px;}
-.product_box h3 {font-family: "nanumsquare"; font-size:18px; color:#8d8c8d; margin: 12px 0 0 0px;}
-.product_box p {font-family: "nanumsquare"; font-size:18px; color:#000;  line-height: 1.4; margin: 20px 0 0 0px; font-weight: bold;}
-
-.product_box sup  {font-family: "nanumsquare"; font-size:2px;color:#868487;}
-.product_line {width:100%; height:260px; margin:20px auto; border-top:1px solid #bbbabc; position:relative; background-color:none;}
-
-/* 호가든 보타닉 */
-
-
-/* 호가든 로제 */
-#detail2 {width:100%; display:none;}
-#detail2 video {width:100%; height:auto; margin:0 auto;  margin-top:70px;}
-
-#rosee_title{width:90%; height:auto; text-align: center; margin:100px auto 0; margin-top:40px;
-        display:flex; flex-direction: column; justify-content:space-around; align-content: center; }
-#rosee_title p {font-family: "nanumsquare"; font-size:25px; color:737373;}
-#rosee_title h3 {font-family: "nanumsquare"; font-size:35px; margin-top:10px; }
-
-#rosee_title span {font-family: "twayair"; color:#e41d5e; letter-spacing: 7px;}
-#rosee_title span:first-child {display:inline-block; transform:rotate(180deg); position:absolute; top:-24px;  position:relative;}
-
-
-.body_box_2 {width: 100%; height:530px; background-color:none; margin-top:83px;
-        display:flex; flex-direction: column; justify-content: space-around; }
-.body_box_2 img {width:100%; }
-.body_box_2 h3 {font-family: "nanumsquare"; font-size:32px; 
-              text-transform:uppercase;  color:#e41d5e; margin: 20px 0 0 20px;}
-.body_box_2 p {font-family: "nanumsquare"; font-size:22px; color:#363636;  
-             margin: 5px 0 0 20px;}
-
-.body_bottom_box_2 {width: 100%; height:1100px; background-color:none; margin:130px auto 0; position: relative; }
-.body_bottom_box_2 p{ font-size:12px; transform:rotate(90deg); display:inline-block;position:absolute; top:83px; left:-72px; margin:auto 0;
-        font-family: "nanumsquare"; font-size:20px; color:#7d7c7d;} 
-
-.body_bottom_box_2 #img_box {width:90%; height:auto; margin:0 auto; display:flex; flex-direction: column; }
-.body_bottom_box_2 img:first-child {width:421px; height:390px; margin:0 0 0 10px; margin-top:10px;}
-.body_bottom_box_2 img:nth-child(2) {width:100%; height:90%; margin:30px 0 0 10px;}
-.body_bottom_box_2 img:nth-child(3) {width:422px; height:600px; margin:30px 0 0 10px; }
-             
-
-.product_box_2 {width: 100%; height:auto; background-color:none;
-        margin-top:90px; padding:20px;} 
-.product_box_2 h1 {font-family: "nanumsquare"; font-size:40px; color:#e41d5e; }
-.product_box_2 h2 {font-family: "nanumsquare"; font-size:28px; color:#000; margin: 10px 0 0 0px;}
-.product_box_2 h3 {font-family: "nanumsquare"; font-size:18px; color:#8d8c8d; margin: 12px 0 0 0px;}
-.product_box_2 p {font-family: "nanumsquare"; font-size:18px; color:#000;  line-height: 1.4; margin: 20px 0 0 0px; font-weight: bold;}
-
-.product_box_2 sup {font-family: "nanumsquare"; font-size:2px;color:#868487;}
-.product_line_2 {width:100%; height:260px; margin:20px auto; border-top:1px solid #bbbabc; position:relative; background-color:none;}
-/* 호가든 로제*/
-
-}
-
-/* ---------- 모바일 버젼 ---------- */
-
-
-
-
-
-/* ---------- PC버젼 ---------- */
-@media (min-width:600px) {
-        .slidewrap{width:1200px; height:660px;overflow:hidden; margin:0 auto; margin-top:65px;}
+        .slidewrap{width:100%; height:auto;overflow:hidden; margin:0 auto; margin-top:65px;}
         .slidewrap ul{width:calc(100% * 3);display:flex;transition:1s;}
-        .slidewrap li{width:calc(100% / 3);height:660px;}
+        .slidewrap li{width:calc(100% / 3);height:auto;}
         .slidewrap li img {width:100%; height:100%;}
         
         .slidewrap input{display:none;}
-        .slidewrap .sub_slide_button{position:absolute;bottom:80px;left:0;right:0;text-align:center;z-index:10;}
+        .slidewrap .sub_slide_button{position:absolute;bottom:455px;left:0;right:0;text-align:center;z-index:10;}
         .slidewrap .sub_slide_button label{width:12px;height:12px;border-radius:10px;;display:inline-block;background:none; border:2px solid #fff; font-size:0;transition:0.5s;cursor:pointer; margin:2px;}
         
         #pos1:checked ~ ul{margin-left:0;}
@@ -227,164 +34,357 @@ section {width:100%; height:auto; margin:0 auto; background-color:none;}
         #pos3:checked ~ .sub_slide_button label:nth-child(3){background:#666;}
         
         
+        section {width:100%; height:auto; margin:0 auto; background-color:none;}
         
-        section {width:1200px; height:4300px; margin:0 auto; background-color:none;}
-        
-        /* .sub_slide {width:1200px; height:600px; margin:0 auto; background-color:pink;  margin-top:65px;}
-        .sub_slide img {width:1000px; height:660px;} */
-        
-        .top_title {width:100%; height:100px; margin-top:120px;}
-        .top_title h1 {font-family: "nanumsquare"; font-size:34px; color:#000; text-align: center; margin-top:76px;}
-        .top_title p {font-family: "nanumsquare"; font-size:20px; color:#999898;text-align: center; margin-top:7px;}
+        .top_title {width:100%; height:100px; margin-top:-30px;display:flex; flex-wrap:wrap; justify-content: center; }
+        .top_title h1 {font-family: "nanumsquare"; font-size:25px; color:#000; text-align: center; margin-top:76px;  }
+        .top_title p {font-family: "nanumsquare"; font-size:18px; color:#999898;text-align: center; margin-top:7px; }
         
         
         
-        #top_banner {width:1200px; height:466px;  display:flex; 
-         justify-content:space-between; margin:0 auto; margin-top:70px;}
-        .top_banner_box {width:390px; height:466px; border-radius: 10px; background-color: #000; overflow: hidden; position:relative; display:inline-block; margin:10px;}
+        #top_banner {width:100%; height:auto;  display:flex; 
+          margin:0 auto; margin-top:70px; justify-content:center; flex-flow:row wrap; align-items:center; }
+        .top_banner_box {width:90%; height:490px; border-radius: 10px; background-color: #000; overflow: hidden; position:relative; display:inline-block; margin:10px;  }
         
-        .top_banner_box img > img {width:100%; height:100%;}
+        .top_banner_box img {width:100%; height:100%;}
         
         .top_textbox {float:left; width:100%; height:100%; background-color:#000; opacity:0;
-                      transition:all 0.5 ease; position:absolute; top:0; left:0; }
+                      transition:all 0.5 ease; position:absolute; top:0; left:0; 
+                      display:flex; justify-content:space-around; align-items:center; }
         
         .top_textbox span {color:#fff; margin:30px 0 0 0px;  font-size:22px; font-family: "nanumsquare"; font-size:52px;
                 line-height:100%; position:absolute; top:150px; left:0; display:inline-block;
                 text-align:center; width:100%; bottom:10px; }    
         
-         .top_textbox button {width:110px; height:40px; background-color:#000;  border:1px solid #fff; position:absolute; top:250px; left:0; right:0; margin:0 auto; display:inline-block; text-align:center;  font-family: "nanumsquare"; font-size:17px; color:#fff; padding:10px 0px;  letter-spacing:2px;  line-height:90%; }       
+         .top_textbox button {width:30%; height:40px; background-color:#000;  border:1px solid #fff; position:absolute; top:250px; left:0; right:0; margin:0 auto; display:inline-block; text-align:center;  font-family: "nanumsquare"; font-size:17px; color:#fff; padding:10px 0px;  letter-spacing:2px;  line-height:90%; }       
          
         .top_textbox:hover { opacity:0.8; transition: 0.7s; cursor:pointer;}
         .top_textbox button:hover { opacity:0.8; transition: 0.7s; cursor:pointer;}
         
         
-        .top_button {width: 800px; height: 63px; border-radius: 20px; 
-                    margin:0 auto; margin-top:60px; display:flex;  flex-wrap:wrap; justify-content: space-between;}
-        #top_button_box {width: 260px; height: 63px; border-radius: 15px; background-color:#a6a6a6;position:relative;}  
+        .top_button {width: 90%; height:250px; border-radius: 20px; 
+                    margin:0 auto; margin-top:50px; display:flex;   flex-direction:column; justify-content:space-around;
+                    }
+        #top_button_box {width: 100%; height: 63px; border-radius: 15px; background-color:#a6a6a6;position:relative;}  
         #top_button_box:hover {cursor: pointer; background-color:#000; transition: 0.7s;}
         #top_button_box p {font-family: "nanumsquare"; font-size:18px; color:#fff; line-height: 65px; text-align:center;}
         
         
-        /* .top_button_textbox {width:260px; height:63px; border-radius: 15px; background-color:#000;  border:1px solid #fff; position:absolute; top:0; left:0; right:0; margin:0 auto; display:inline-block; text-align:center;  font-family: "nanumsquare"; font-size:17px; color:#fff; padding:10px 0px;  letter-spacing:2px;  line-height:90%;}
-        .top_button_textbox span {font-family: "nanumsquare"; font-size:15px; color:#fff; } */
-        
         
         /* 호가든 오리지널 */
         #detail3 {width:100%; }
-        video {width:950px; height:500px; margin:0 auto; display:flex; justify-content: center; margin-top:150px;}
+        #detail3 video {width:100%; height:auto; margin:0 auto;  margin-top:70px;}
         
-        #hoegaarden_title {width: 1200px; height: 90px; text-align: center; margin-top:125px; }
+        #hoegaarden_title {width:90%; height:auto; text-align: center; margin:100px auto 0;
+                display:flex; flex-direction: column; justify-content:space-around; align-items: center; }
         #hoegaarden_title p {font-family: "nanumsquare"; font-size:25px; color:737373;}
-        #hoegaarden_title h3 {font-family: "nanumsquare"; font-size:42px; margin-top:10px; }
+        #hoegaarden_title h3 {font-family: "nanumsquare"; font-size:35px; margin-top:10px; }
         
         #hoegaarden_title span {font-family: "twayair"; color:#2f65ec; letter-spacing: 7px;}
         #hoegaarden_title span:first-child {display:inline-block; transform:rotate(180deg); position:absolute; top:-24px;  position:relative;}
         
         
-        .body_box_1 {width: 1200px; height:700px; background-color:none; margin-top:83px;}
-        .body_box_1 img {margin-top:0px;}
+        .body_box_1 {width: 100%; height:630px; background-color:none; margin-top:83px;
+                display:flex; flex-direction: column; justify-content: space-around; }
+        .body_box_1 img {width:100%; }
         .body_box_1 h3 {font-family: "nanumsquare"; font-size:32px; 
-                      text-transform:uppercase;  color:#2f65ec; margin: -50px 0 0 630px;}
+                      text-transform:uppercase;  color:#2f65ec; margin: 20px 0 0 20px;}
         .body_box_1 p {font-family: "nanumsquare"; font-size:22px; color:#363636;  
-                     margin: 5px 0 0 630px;}
+                     margin: 5px 0 0 20px;}
         
-        .body_bottom_box_1 {width: 1200px; height:600px; background-color:none; margin:130px auto 0; position: relative;}
-        .body_bottom_box_1 p{ font-size:15px; transform:rotate(90deg); display:inline-block;position:absolute; top:10px; bottom:0; left:-363px; margin:auto 0;
+        .body_bottom_box_1 {width: 100%; height:1100px; background-color:none; margin:130px auto 0; position: relative; }
+        .body_bottom_box_1 p{ font-size:12px; transform:rotate(90deg); display:inline-block;position:absolute; top:55px; left:-41px; margin:auto 0;
                 font-family: "nanumsquare"; font-size:20px; color:#7d7c7d;} 
         
-        #img_box {width:843px; height:100%; float:right; display:flex; flex-flow: column wrap; }
-        .body_bottom_box_1 img:first-child {width:421px; height:390px; margin:0 0 0 -20px;}
-        .body_bottom_box_1 img:nth-child(2) {width:580px; height:110px;margin:40px 0 0 -200px;}
-        .body_bottom_box_1 img:nth-child(3) {width:422px; height:600px; margin:0 0 0 20px; }
+        .body_bottom_box_1 #img_box {width:90%; height:auto; margin:0 auto; display:flex; flex-direction: column; }
+        .body_bottom_box_1 img:first-child {width:421px; height:390px; margin:0 0 0 10px; margin-top:10px;}
+        .body_bottom_box_1 img:nth-child(2) {width:100%; height:80px;margin:30px 0 0 10px;}
+        .body_bottom_box_1 img:nth-child(3) {width:422px; height:600px; margin:30px 0 0 10px; }
         
-        .product_box_1 {width: 1200px; height:310px; background-color:none; } 
-        .product_box_1 h1 {font-family: "nanumsquare"; font-size:52px; color:#2f65ec; margin-top:80px;}
-        .product_box_1 h2 {font-family: "nanumsquare"; font-size:32px; color:#000; margin: 10px 0 0 0px;}
-        .product_box_1 h3 {font-family: "nanumsquare"; font-size:20px; color:#8d8c8d; margin: 12px 0 0 0px;}
-        .product_box_1 p {font-family: "nanumsquare"; font-size:20px; color:#000;  line-height: 1.4; margin: 20px 0 0 0px; font-weight: bold;}
+        .product_box_1 {width: 100%; height:auto; background-color:none;
+                       margin-top:40px; padding:20px;} 
+        .product_box_1 h1 {font-family: "nanumsquare"; font-size:40px; color:#2f65ec; }
+        .product_box_1 h2 {font-family: "nanumsquare"; font-size:28px; color:#000; margin: 10px 0 0 0px;}
+        .product_box_1 h3 {font-family: "nanumsquare"; font-size:18px; color:#8d8c8d; margin: 12px 0 0 0px;}
+        .product_box_1 p {font-family: "nanumsquare"; font-size:18px; color:#000;  line-height: 1.4; margin: 20px 0 0 0px; font-weight: bold;}
         
         .product_box_1 sup {font-family: "nanumsquare"; font-size:2px;color:#868487;}
-        .product_line_1 {width:100%; height:360px; margin:20px auto; border-top:1px solid #bbbabc; position:relative; background-color:none;}
+        .product_line_1 {width:100%; height:260px; margin:20px auto; border-top:1px solid #bbbabc; position:relative; background-color:none;}
         
         /* 호가든 오리지널*/
         
         
         /* 호가든 보타닉 */
         #detail1 {width:100%; display:none;}
-        video {width:950px; height:500px; margin:0 auto; display:flex; justify-content: center; margin-top:130px;}
-        
-        #botanic_title {width: 1200px; height: 90px; text-align: center; margin-top:125px; }
+        #detail1 video {width:100%; height:auto; margin:0 auto;  margin-top:70px;}
+        #botanic_title {width:90%; height:auto; text-align: center; margin:100px auto 0;
+                display:flex; flex-direction: column; justify-content:space-around; align-items: center; }
         #botanic_title p {font-family: "nanumsquare"; font-size:25px; color:737373;}
-        #botanic_title h3 {font-family: "nanumsquare"; font-size:42px; margin-top:10px; }
+        #botanic_title h3 {font-family: "nanumsquare"; font-size:35px; margin-top:10px; }
         
         #botanic_title span {font-family: "twayair"; color:#9b59d3; letter-spacing: 7px;}
         #botanic_title span:first-child {display:inline-block; transform:rotate(180deg); position:absolute; top:-24px;  position:relative;}
         
         
-        .body_box {width: 1200px; height:700px; background-color:none; margin-top:83px;}
-        .body_box img {margin-top:0px;}
+        .body_box {width: 100%; height:630px; background-color:none; margin-top:83px;
+                display:flex; flex-direction: column; justify-content: space-around; }
+        .body_box_1 img {width:100%; }
         .body_box h3 {font-family: "nanumsquare"; font-size:32px; 
-                      text-transform:uppercase;  color:#9b59d3; margin: -50px 0 0 630px;}
+                text-transform:uppercase;  color:#9b59d3; margin: 20px 0 0 20px;}
         .body_box p {font-family: "nanumsquare"; font-size:22px; color:#363636;  
-                     margin: 5px 0 0 630px;}
-        
-        .body_bottom_box {width: 1200px; height:600px; background-color:none; margin:130px auto 0; position: relative;}
-        .body_bottom_box p{ font-size:15px; transform:rotate(90deg); display:inline-block;position:absolute; top:10px; bottom:0; left:-363px; margin:auto 0;
+                margin: 5px 0 0 20px;}
+        .body_bottom_box {width: 100%; height:1100px; background-color:none; margin:130px auto 0; position: relative;}
+        .body_bottom_box p{ font-size:12px; transform:rotate(90deg); display:inline-block;position:absolute; top:90px; left:-77px; margin:auto 0;
                 font-family: "nanumsquare"; font-size:20px; color:#7d7c7d;} 
         
-        #img_box {width:843px; height:100%; float:right; display:flex; flex-flow: column wrap; }
-        .body_bottom_box img:first-child {width:421px; height:390px; margin:0 0 0 -20px;}
-        .body_bottom_box img:nth-child(2) {width:396px; height:110px;margin:40px 0 0 0px;}
-        .body_bottom_box img:nth-child(3) {width:422px; height:600px; margin:0 0 0 20px; }
         
-        .product_box {width: 1200px; height:310px; background-color:none; } 
-        .product_box h1 {font-family: "nanumsquare"; font-size:52px; color:#9b59d3; margin-top:80px;}
-        .product_box h2 {font-family: "nanumsquare"; font-size:32px; color:#000; margin: 10px 0 0 0px;}
-        .product_box h3 {font-family: "nanumsquare"; font-size:20px; color:#8d8c8d; margin: 12px 0 0 0px;}
-        .product_box p {font-family: "nanumsquare"; font-size:20px; color:#000;  line-height: 1.4; margin: 20px 0 0 0px; font-weight: bold;}
+        .body_bottom_box #img_box {width:90%; height:auto; margin:0 auto; display:flex; flex-direction: column; }
+        .body_bottom_box img:first-child {width:421px; height:390px; margin:0 0 0 10px; margin-top:10px;}
+        .body_bottom_box img:nth-child(2) {width:100%; height:90%; margin:30px 0 0 5px;}
+        .body_bottom_box img:nth-child(3) {width:422px; height:600px; margin:30px 0 0 10px; }
+                
         
-        .product_box sup {font-family: "nanumsquare"; font-size:2px;color:#868487;}
-        .product_line {width:100%; height:360px; margin:20px auto; border-top:1px solid #bbbabc; position:relative; background-color:none;}
+        .product_box  {width: 100%; height:auto; background-color:none;
+                margin-top:40px; padding:20px;} 
+        .product_box h1 {font-family: "nanumsquare"; font-size:40px; color:#9b59d3; margin-top:40px;}
+        .product_box h2{font-family: "nanumsquare"; font-size:28px; color:#000; margin: 10px 0 0 0px;}
+        .product_box h3 {font-family: "nanumsquare"; font-size:18px; color:#8d8c8d; margin: 12px 0 0 0px;}
+        .product_box p {font-family: "nanumsquare"; font-size:18px; color:#000;  line-height: 1.4; margin: 20px 0 0 0px; font-weight: bold;}
+        
+        .product_box sup  {font-family: "nanumsquare"; font-size:2px;color:#868487;}
+        .product_line {width:100%; height:260px; margin:20px auto; border-top:1px solid #bbbabc; position:relative; background-color:none;}
         
         /* 호가든 보타닉 */
         
         
         /* 호가든 로제 */
         #detail2 {width:100%; display:none;}
-        video {width:950px; height:500px; margin:0 auto; display:flex; justify-content: center; margin-top:150px;}
+        #detail2 video {width:100%; height:auto; margin:0 auto;  margin-top:70px;}
         
-        #rosee_title {width: 1200px; height: 90px; text-align: center; margin-top:85px; }
+        #rosee_title{width:90%; height:auto; text-align: center; margin:100px auto 0; margin-top:40px;
+                display:flex; flex-direction: column; justify-content:space-around; align-content: center; }
         #rosee_title p {font-family: "nanumsquare"; font-size:25px; color:737373;}
-        #rosee_title h3 {font-family: "nanumsquare"; font-size:42px; margin-top:10px; }
+        #rosee_title h3 {font-family: "nanumsquare"; font-size:35px; margin-top:10px; }
         
         #rosee_title span {font-family: "twayair"; color:#e41d5e; letter-spacing: 7px;}
         #rosee_title span:first-child {display:inline-block; transform:rotate(180deg); position:absolute; top:-24px;  position:relative;}
         
         
-        .body_box_2 {width: 1200px; height:700px; background-color:none; margin-top:83px;}
-        .body_box_2 img {margin-top:0px;}
+        .body_box_2 {width: 100%; height:530px; background-color:none; margin-top:83px;
+                display:flex; flex-direction: column; justify-content: space-around; }
+        .body_box_2 img {width:100%; }
         .body_box_2 h3 {font-family: "nanumsquare"; font-size:32px; 
-                      text-transform:uppercase;  color:#e41d5e; margin: -50px 0 0 630px;}
+                      text-transform:uppercase;  color:#e41d5e; margin: 20px 0 0 20px;}
         .body_box_2 p {font-family: "nanumsquare"; font-size:22px; color:#363636;  
-                     margin: 5px 0 0 630px;}
+                     margin: 5px 0 0 20px;}
         
-        .body_bottom_box_2 {width: 1200px; height:600px; background-color:none; margin:130px auto 0; position: relative;}
-        .body_bottom_box_2 p{ font-size:15px; transform:rotate(90deg); display:inline-block;position:absolute; top:10px; bottom:0; left:-363px; margin:auto 0;
+        .body_bottom_box_2 {width: 100%; height:1100px; background-color:none; margin:130px auto 0; position: relative; }
+        .body_bottom_box_2 p{ font-size:12px; transform:rotate(90deg); display:inline-block;position:absolute; top:83px; left:-72px; margin:auto 0;
                 font-family: "nanumsquare"; font-size:20px; color:#7d7c7d;} 
         
-        #img_box {width:843px; height:100%; float:right; display:flex; flex-flow: column wrap; }
-        .body_bottom_box_2 img:first-child {width:421px; height:390px; margin:0 0 0 -20px;}
-        .body_bottom_box_2 img:nth-child(2) {width:396px; height:110px;margin:40px 0 0 0px;}
-        .body_bottom_box_2 img:nth-child(3) {width:422px; height:600px; margin:0 0 0 20px; }
+        .body_bottom_box_2 #img_box {width:90%; height:auto; margin:0 auto; display:flex; flex-direction: column; }
+        .body_bottom_box_2 img:first-child {width:421px; height:390px; margin:0 0 0 10px; margin-top:10px;}
+        .body_bottom_box_2 img:nth-child(2) {width:100%; height:90%; margin:30px 0 0 10px;}
+        .body_bottom_box_2 img:nth-child(3) {width:422px; height:600px; margin:30px 0 0 10px; }
+                     
         
-        .product_box_2 {width: 1200px; height:310px; background-color:none; } 
-        .product_box_2 h1 {font-family: "nanumsquare"; font-size:52px; color:#e41d5e; margin-top:80px;}
-        .product_box_2 h2 {font-family: "nanumsquare"; font-size:32px; color:#000; margin: 10px 0 0 0px;}
-        .product_box_2 h3 {font-family: "nanumsquare"; font-size:20px; color:#8d8c8d; margin: 12px 0 0 0px;}
-        .product_box_2 p {font-family: "nanumsquare"; font-size:20px; color:#000;  line-height: 1.4; margin: 20px 0 0 0px; font-weight: bold;}
+        .product_box_2 {width: 100%; height:auto; background-color:none;
+                margin-top:90px; padding:20px;} 
+        .product_box_2 h1 {font-family: "nanumsquare"; font-size:40px; color:#e41d5e; }
+        .product_box_2 h2 {font-family: "nanumsquare"; font-size:28px; color:#000; margin: 10px 0 0 0px;}
+        .product_box_2 h3 {font-family: "nanumsquare"; font-size:18px; color:#8d8c8d; margin: 12px 0 0 0px;}
+        .product_box_2 p {font-family: "nanumsquare"; font-size:18px; color:#000;  line-height: 1.4; margin: 20px 0 0 0px; font-weight: bold;}
         
         .product_box_2 sup {font-family: "nanumsquare"; font-size:2px;color:#868487;}
-        .product_line_2 {width:100%; height:360px; margin:20px auto; border-top:1px solid #bbbabc; position:relative; background-color:none;}
-        
+        .product_line_2 {width:100%; height:260px; margin:20px auto; border-top:1px solid #bbbabc; position:relative; background-color:none;}
         /* 호가든 로제*/
+        
         }
+        
+        /* ---------- 모바일 버젼 ---------- */
+        
+        
+        
+        
+        
+        /* ---------- PC버젼 ---------- */
+        @media (min-width:600px) {
+                .slidewrap{width:1200px; height:660px;overflow:hidden; margin:0 auto; margin-top:65px;}
+                .slidewrap ul{width:calc(100% * 3);display:flex;transition:1s;}
+                .slidewrap li{width:calc(100% / 3);height:660px;}
+                .slidewrap li img {width:100%; height:100%;}
+                
+                .slidewrap input{display:none;}
+                .slidewrap .sub_slide_button{position:absolute;bottom:15px;left:0;right:0;text-align:center;z-index:10;}
+                .slidewrap .sub_slide_button label{width:12px;height:12px;border-radius:10px;;display:inline-block;background:none; border:2px solid #fff; font-size:0;transition:0.5s;cursor:pointer; margin:2px;}
+                
+                #pos1:checked ~ ul{margin-left:0;}
+                #pos2:checked ~ ul{margin-left:-100%;}
+                #pos3:checked ~ ul{margin-left:-200%;}
+                
+                #pos1:checked ~ .sub_slide_button label:nth-child(1),
+                #pos2:checked ~ .sub_slide_button label:nth-child(2),
+                #pos3:checked ~ .sub_slide_button label:nth-child(3){background:#666;}
+                
+                
+                
+                section {width:1200px; height:4300px; margin:0 auto; background-color:none;}
+                
+                /* .sub_slide {width:1200px; height:600px; margin:0 auto; background-color:pink;  margin-top:65px;}
+                .sub_slide img {width:1000px; height:660px;} */
+                
+                .top_title {width:100%; height:100px; margin-top:120px;}
+                .top_title h1 {font-family: "nanumsquare"; font-size:34px; color:#000; text-align: center; margin-top:76px;}
+                .top_title p {font-family: "nanumsquare"; font-size:20px; color:#999898;text-align: center; margin-top:7px;}
+                
+                
+                
+                #top_banner {width:1200px; height:466px;  display:flex; 
+                 justify-content:space-between; margin:0 auto; margin-top:70px;}
+                .top_banner_box {width:390px; height:466px; border-radius: 10px; background-color: #000; overflow: hidden; position:relative; display:inline-block; margin:10px;}
+                
+                .top_banner_box img > img {width:100%; height:100%;}
+                
+                .top_textbox {float:left; width:100%; height:100%; background-color:#000; opacity:0;
+                              transition:all 0.5 ease; position:absolute; top:0; left:0; }
+                
+                .top_textbox span {color:#fff; margin:30px 0 0 0px;  font-size:22px; font-family: "nanumsquare"; font-size:52px;
+                        line-height:100%; position:absolute; top:150px; left:0; display:inline-block;
+                        text-align:center; width:100%; bottom:10px; }    
+                
+                 .top_textbox button {width:110px; height:40px; background-color:#000;  border:1px solid #fff; position:absolute; top:250px; left:0; right:0; margin:0 auto; display:inline-block; text-align:center;  font-family: "nanumsquare"; font-size:17px; color:#fff; padding:10px 0px;  letter-spacing:2px;  line-height:90%; }       
+                 
+                .top_textbox:hover { opacity:0.8; transition: 0.7s; cursor:pointer;}
+                .top_textbox button:hover { opacity:0.8; transition: 0.7s; cursor:pointer;}
+                
+                
+                .top_button {width: 800px; height: 63px; border-radius: 20px; 
+                            margin:0 auto; margin-top:60px; display:flex;  flex-wrap:wrap; justify-content: space-between;}
+                #top_button_box {width: 260px; height: 63px; border-radius: 15px; background-color:#a6a6a6;position:relative;}  
+                #top_button_box:hover {cursor: pointer; background-color:#000; transition: 0.7s;}
+                #top_button_box p {font-family: "nanumsquare"; font-size:18px; color:#fff; line-height: 65px; text-align:center;}
+                
+                
+                /* .top_button_textbox {width:260px; height:63px; border-radius: 15px; background-color:#000;  border:1px solid #fff; position:absolute; top:0; left:0; right:0; margin:0 auto; display:inline-block; text-align:center;  font-family: "nanumsquare"; font-size:17px; color:#fff; padding:10px 0px;  letter-spacing:2px;  line-height:90%;}
+                .top_button_textbox span {font-family: "nanumsquare"; font-size:15px; color:#fff; } */
+                
+                
+                /* 호가든 오리지널 */
+                #detail3 {width:100%; }
+                video {width:950px; height:500px; margin:0 auto; display:flex; justify-content: center; margin-top:150px;}
+                
+                #hoegaarden_title {width: 1200px; height: 90px; text-align: center; margin-top:125px; }
+                #hoegaarden_title p {font-family: "nanumsquare"; font-size:25px; color:737373;}
+                #hoegaarden_title h3 {font-family: "nanumsquare"; font-size:42px; margin-top:10px; }
+                
+                #hoegaarden_title span {font-family: "twayair"; color:#2f65ec; letter-spacing: 7px;}
+                #hoegaarden_title span:first-child {display:inline-block; transform:rotate(180deg); position:absolute; top:-24px;  position:relative;}
+                
+                
+                .body_box_1 {width: 1200px; height:700px; background-color:none; margin-top:83px;}
+                .body_box_1 img {margin-top:0px;}
+                .body_box_1 h3 {font-family: "nanumsquare"; font-size:32px; 
+                              text-transform:uppercase;  color:#2f65ec; margin: -50px 0 0 630px;}
+                .body_box_1 p {font-family: "nanumsquare"; font-size:22px; color:#363636;  
+                             margin: 5px 0 0 630px;}
+                
+                .body_bottom_box_1 {width: 1200px; height:600px; background-color:none; margin:130px auto 0; position: relative;}
+                .body_bottom_box_1 p{ font-size:15px; transform:rotate(90deg); display:inline-block;position:absolute; top:10px; bottom:0; left:-363px; margin:auto 0;
+                        font-family: "nanumsquare"; font-size:20px; color:#7d7c7d;} 
+                
+                #img_box {width:843px; height:100%; float:right; display:flex; flex-flow: column wrap; }
+                .body_bottom_box_1 img:first-child {width:421px; height:390px; margin:0 0 0 -20px;}
+                .body_bottom_box_1 img:nth-child(2) {width:580px; height:110px;margin:40px 0 0 -200px;}
+                .body_bottom_box_1 img:nth-child(3) {width:422px; height:600px; margin:0 0 0 20px; }
+                
+                .product_box_1 {width: 1200px; height:310px; background-color:none; } 
+                .product_box_1 h1 {font-family: "nanumsquare"; font-size:52px; color:#2f65ec; margin-top:80px;}
+                .product_box_1 h2 {font-family: "nanumsquare"; font-size:32px; color:#000; margin: 10px 0 0 0px;}
+                .product_box_1 h3 {font-family: "nanumsquare"; font-size:20px; color:#8d8c8d; margin: 12px 0 0 0px;}
+                .product_box_1 p {font-family: "nanumsquare"; font-size:20px; color:#000;  line-height: 1.4; margin: 20px 0 0 0px; font-weight: bold;}
+                
+                .product_box_1 sup {font-family: "nanumsquare"; font-size:2px;color:#868487;}
+                .product_line_1 {width:100%; height:360px; margin:20px auto; border-top:1px solid #bbbabc; position:relative; background-color:none;}
+                
+                /* 호가든 오리지널*/
+                
+                
+                /* 호가든 보타닉 */
+                #detail1 {width:100%; display:none;}
+                video {width:950px; height:500px; margin:0 auto; display:flex; justify-content: center; margin-top:130px;}
+                
+                #botanic_title {width: 1200px; height: 90px; text-align: center; margin-top:125px; }
+                #botanic_title p {font-family: "nanumsquare"; font-size:25px; color:737373;}
+                #botanic_title h3 {font-family: "nanumsquare"; font-size:42px; margin-top:10px; }
+                
+                #botanic_title span {font-family: "twayair"; color:#9b59d3; letter-spacing: 7px;}
+                #botanic_title span:first-child {display:inline-block; transform:rotate(180deg); position:absolute; top:-24px;  position:relative;}
+                
+                
+                .body_box {width: 1200px; height:700px; background-color:none; margin-top:83px;}
+                .body_box img {margin-top:0px;}
+                .body_box h3 {font-family: "nanumsquare"; font-size:32px; 
+                              text-transform:uppercase;  color:#9b59d3; margin: -50px 0 0 630px;}
+                .body_box p {font-family: "nanumsquare"; font-size:22px; color:#363636;  
+                             margin: 5px 0 0 630px;}
+                
+                .body_bottom_box {width: 1200px; height:600px; background-color:none; margin:130px auto 0; position: relative;}
+                .body_bottom_box p{ font-size:15px; transform:rotate(90deg); display:inline-block;position:absolute; top:10px; bottom:0; left:-363px; margin:auto 0;
+                        font-family: "nanumsquare"; font-size:20px; color:#7d7c7d;} 
+                
+                #img_box {width:843px; height:100%; float:right; display:flex; flex-flow: column wrap; }
+                .body_bottom_box img:first-child {width:421px; height:390px; margin:0 0 0 -20px;}
+                .body_bottom_box img:nth-child(2) {width:396px; height:110px;margin:40px 0 0 0px;}
+                .body_bottom_box img:nth-child(3) {width:422px; height:600px; margin:0 0 0 20px; }
+                
+                .product_box {width: 1200px; height:310px; background-color:none; } 
+                .product_box h1 {font-family: "nanumsquare"; font-size:52px; color:#9b59d3; margin-top:80px;}
+                .product_box h2 {font-family: "nanumsquare"; font-size:32px; color:#000; margin: 10px 0 0 0px;}
+                .product_box h3 {font-family: "nanumsquare"; font-size:20px; color:#8d8c8d; margin: 12px 0 0 0px;}
+                .product_box p {font-family: "nanumsquare"; font-size:20px; color:#000;  line-height: 1.4; margin: 20px 0 0 0px; font-weight: bold;}
+                
+                .product_box sup {font-family: "nanumsquare"; font-size:2px;color:#868487;}
+                .product_line {width:100%; height:360px; margin:20px auto; border-top:1px solid #bbbabc; position:relative; background-color:none;}
+                
+                /* 호가든 보타닉 */
+                
+                
+                /* 호가든 로제 */
+                #detail2 {width:100%; display:none;}
+                video {width:950px; height:500px; margin:0 auto; display:flex; justify-content: center; margin-top:150px;}
+                
+                #rosee_title {width: 1200px; height: 90px; text-align: center; margin-top:85px; }
+                #rosee_title p {font-family: "nanumsquare"; font-size:25px; color:737373;}
+                #rosee_title h3 {font-family: "nanumsquare"; font-size:42px; margin-top:10px; }
+                
+                #rosee_title span {font-family: "twayair"; color:#e41d5e; letter-spacing: 7px;}
+                #rosee_title span:first-child {display:inline-block; transform:rotate(180deg); position:absolute; top:-24px;  position:relative;}
+                
+                
+                .body_box_2 {width: 1200px; height:700px; background-color:none; margin-top:83px;}
+                .body_box_2 img {margin-top:0px;}
+                .body_box_2 h3 {font-family: "nanumsquare"; font-size:32px; 
+                              text-transform:uppercase;  color:#e41d5e; margin: -50px 0 0 630px;}
+                .body_box_2 p {font-family: "nanumsquare"; font-size:22px; color:#363636;  
+                             margin: 5px 0 0 630px;}
+                
+                .body_bottom_box_2 {width: 1200px; height:600px; background-color:none; margin:130px auto 0; position: relative;}
+                .body_bottom_box_2 p{ font-size:15px; transform:rotate(90deg); display:inline-block;position:absolute; top:10px; bottom:0; left:-363px; margin:auto 0;
+                        font-family: "nanumsquare"; font-size:20px; color:#7d7c7d;} 
+                
+                #img_box {width:843px; height:100%; float:right; display:flex; flex-flow: column wrap; }
+                .body_bottom_box_2 img:first-child {width:421px; height:390px; margin:0 0 0 -20px;}
+                .body_bottom_box_2 img:nth-child(2) {width:396px; height:110px;margin:40px 0 0 0px;}
+                .body_bottom_box_2 img:nth-child(3) {width:422px; height:600px; margin:0 0 0 20px; }
+                
+                .product_box_2 {width: 1200px; height:310px; background-color:none; } 
+                .product_box_2 h1 {font-family: "nanumsquare"; font-size:52px; color:#e41d5e; margin-top:80px;}
+                .product_box_2 h2 {font-family: "nanumsquare"; font-size:32px; color:#000; margin: 10px 0 0 0px;}
+                .product_box_2 h3 {font-family: "nanumsquare"; font-size:20px; color:#8d8c8d; margin: 12px 0 0 0px;}
+                .product_box_2 p {font-family: "nanumsquare"; font-size:20px; color:#000;  line-height: 1.4; margin: 20px 0 0 0px; font-weight: bold;}
+                
+                .product_box_2 sup {font-family: "nanumsquare"; font-size:2px;color:#868487;}
+                .product_line_2 {width:100%; height:360px; margin:20px auto; border-top:1px solid #bbbabc; position:relative; background-color:none;}
+                
+                /* 호가든 로제*/
+                }
