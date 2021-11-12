@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+*{margin: 0; padding: 0; box-sizing: border-box; text-decoration: none;}
+
+ul,ol,li{list-style: none;}
+html, body{margin: 0; height: 100%;}
+button{border: none;}
+*{font-family: "나눔스퀘어";}

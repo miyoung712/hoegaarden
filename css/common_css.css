@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+@media(max-width:599px){
+    header{width: 100%; height: 150px; margin:0 auto; text-align: center; position: relative; top: 10px;}
+
+    .logo{width: 45%; height: 60%; margin: 0 auto;}
+    .logo img{width: 100%; height: 100%;}
+
+    .seach{width:25%; height: 20%; float: right;}
+    .seach input{width:60%; height: 30px; color:#000; border:none; float: left; border-bottom:1px solid #aaa;}
+    .seach input:focus {outline:none; transform: scaleX(1.2);  transition:0.7s;}
+    .seach button{width: 30%; height: 100%; float: right; cursor: pointer;}
+    .seach img {width: 100%; height: 100%; border: none;}
+    
+    .sns{width: 30%; height: 20%; float:right; margin: -90px 10px 0 0;}
+    .sns img{width: 20%; height: 100%; cursor: pointer;}
+
+    .menu{width: 100%; height: 200px; display: none; text-align: center; margin: 0 auto; background-color: #ffffff;}
+    .menu_exit{display: none;}
+    nav{width: 100%; height: 50px;  text-align: center; margin: 0 auto;} 
+    nav ul{ display: flex; flex-direction: column; justify-content: space-between; margin: 30px ;}
+    nav ul li{width: 100%; height: 15%; float: left; font-size: 34px; font-weight: bold; font-family: "couture";}
+    nav ul li a:link{color:#13377d;}
+    nav ul li a:visited{color:#13377d;}
+    nav ul li a:hover{color:darkgoldenrod; transition: 1s;}
+    .menubar{width: 15%; height: 40%; margin: -70px 0 0 40px; border: none; float: left;}
+    .menu_exit{width: 15%; height: 40%; margin: -75px 0 0 37px;}
+    .menubar img, .menu_exit img {width: 100%; height: 100%; border: none;}
+    .menubar button, .menu_exit button{width: 100%; height: 100%;}
+
+    footer{width: 100%; height: 360px; margin: 100px 0 0 0; text-align: center; color:#888; border-top: 1px solid #000; padding:20px 0 0 0;}
+    .foot_name{color:#000; font-weight: bold;}
+
+
+}
+
+@media(min-width:600px){
+    header{width: 100%; height: 150px; margin:0 auto; text-align: center; position: relative; top: 10px;}
+
+    .logo{width: 20%; height: 60%; margin: 0 auto;}
+    .logo img{width: 100%; height: 100%;}
+
+    .seach{width:15%; height: 25%; float: right;}
+    .seach input{width:60%; height: 30px; color:#000; border:none; float: left; border-bottom:1px solid #aaa;}
+    .seach input:focus {outline:none; transform: scaleX(1.2);  transition:0.7s;}
+    .seach button{width: 30%; height: 100%; float: right; cursor: pointer;}
+    .seach img {width: 100%; height: 100%; border: none;}
+    
+    .sns{width: 15%; height: 15%; float:right; margin: -90px 10px 0 0;}
+    .sns img{width: 20%; height: 100%; cursor: pointer;}
+
+    .menu{width: 100%; height: 150px; display: none; text-align: center; margin: 0 auto; background-color: #ffffff;}
+    .menu_exit{display: none;}
+    nav{width: 100%; height: 50px;  text-align: center; margin: 0 auto;} 
+    nav ul{ display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between; margin: 50px 0 0 0 ;}
+    nav ul li{ width: 40%; height: 40%; float: left; font-size: 34px; font-weight: bold; font-family: "couture";}
+    nav ul li a:link{color:#13377d;}
+    nav ul li a:visited{color:#13377d;}
+    nav ul li a:hover{color:darkgoldenrod; transition: 1s;}
+    .menubar{width: 70px; height: 70px; margin: -70px 0 0 40px; border: none; float: left;}
+    .menu_exit{width: 70px; height: 70px; margin: -75px 0 0 37px;}
+    .menubar img, .menu_exit img {width: 70px; height: 70px; border: none;}
+    .menubar button, .menu_exit button{width: 70px; height: 70px;}
+
+    footer{width: 100%; height: 360px; margin: 100px 0 0 0; text-align: center; color:#888; border-top: 1px solid #000; padding:20px 0 0 0;}
+    .foot_name{color:#000; font-weight: bold;}
+
+}
+
+@media(min-width:1200px){
+    header{width: 1200px; height: 150px; margin:0 auto; text-align: center; position: relative; top: 10px;}
+
+    .logo{width: 210px; height: 100px; margin: 0 auto;}
+    .logo img{width: 100%; height: 100%;}
+
+    .seach{width:200px; height: 50px; float: right; margin: -20px 20px 0 0;}
+    .seach input{width:150px; height: 30px; color:#000; border:none; float: left; border-bottom:1px solid #aaa; margin:0 10px 0 15px;}
+    .seach input:focus {outline:none; transform: scaleX(1.2);  transition:0.7s;}
+    .seach button{width: 30px; height: 30px; float: right; margin: 0 -15px 0 0; cursor: pointer;}
+    .seach img {width: 100%; height: 100%; border: none;}
+    
+    .sns{width: 150px; height: 30px; float:right; margin: -90px 10px 0 0;}
+    .sns img{width: 30px; height: 30px; cursor: pointer;}
+
+    .menu{width: 1200px; height: 100px; display: none; text-align: center; margin: 0 auto; background-color: #ffffff;}
+    .menu_exit{display: none;}
+    nav{width: 1200px; height: 50px;  text-align: center; margin: 0 auto;} 
+    nav ul{ display: flex; flex-direction: row; justify-content: space-between; margin: 50px 0 0 0 ;}
+    nav ul li{ width: 20%; float: left; font-size: 32.2px; font-weight: bold;}
+    nav ul li a:link{color:#13377d;}
+    nav ul li a:visited{color:#13377d;}
+    nav ul li a:hover{color:darkgoldenrod; transition: 1s;}
+    .menubar{width: 70px; height: 70px; margin: -70px 0 0 40px; border: none; float: left;}
+    .menu_exit{width: 70px; height: 70px; margin: -75px 0 0 37px;}
+    .menubar img, .menu_exit img {width: 70px; height: 70px; border: none;}
+    .menubar button, .menu_exit button{width: 70px; height: 70px;}
+
+    footer{width: 1200px; height: 360px; margin: 0 auto; text-align: center; color:#888; position: relative; top: 100px; border-top: 1px solid #000; padding:20px 0 0 0;}
+    .foot_name{color:#000; font-weight: bold;}
+ }

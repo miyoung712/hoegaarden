@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+    <link rel="stylesheet" href="css/reset_css.css" type="text/css">
+    <link rel="stylesheet" href="css/common_css.css" type="text/css">
+    <link rel="stylesheet" href="css/sub_h.css">
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js"></script>
+    <script>
+        $(function() {
+            $(".menubar").click(function(){
+                $(".menu").show();
+                $(".menu_exit").show();
+                $(".menu_button").hide();
+                $not(".menu").hide();
+            });
+
+            $(".menu_exit").click(function(){
+                $(".menu").hide();
+                $(".menu_exit").hide();
+                $(".menu_button").show();
+                
+            });
+        });
+
+
+        $(function(){
+            $(".top_banner_box:nth-of-type(1)").click(function(){
+                $("#detail3").fadeIn();
+                $("#detail1").hide();
+                $("#detail2").hide();
+            });
+
+            $(".top_banner_box:nth-of-type(2)").click(function(){
+                $("#detail1").fadeIn();
+                $("#detail3").hide();
+                $("#detail2").hide();
+            });
+
+            $(".top_banner_box:nth-of-type(3)").click(function(){
+                $("#detail2").fadeIn();
+                $("#detail1").hide();
+                $("#detail3").hide();
+            });
+
+
+            $(".top_button button:nth-of-type(1)").click(function(){
+                $("#detail3").show();
+                $("#detail1").hide();
+                $("#detail2").hide();
+            });
+
+            $(".top_button button:nth-of-type(2)").click(function(){
+                $("#detail1").show();
+                $("#detail3").hide();
+                $("#detail2").hide();
+            });
+
+            $(".top_button button:nth-of-type(3)").click(function(){
+                $("#detail2").show();
+                $("#detail1").hide();
+                $("#detail3").hide();
+            });
+        });
+
+        $(function(){
+            $("#top_button_box:nth-of-type(1) p").hover(function(){
+                $("#top_button_box:nth-of-type(1) p").text("호가든으로 이동합니다");
+            },function(){
+                $("#top_button_box:nth-of-type(1) p").text("호가든");
+            });
+
+            $("#top_button_box:nth-of-type(2) p").hover(function(){
+                $("#top_button_box:nth-of-type(2) p").text("호가든 보타닉으로 이동합니다");
+            },function(){
+                $("#top_button_box:nth-of-type(2) p").text("호가든 보타닉");
+            });
+
+            $("#top_button_box:nth-of-type(3) p").hover(function(){
+                $("#top_button_box:nth-of-type(3) p").text("호가든 로제로 이동합니다");
+            },function(){
+                $("#top_button_box:nth-of-type(3) p").text("호가든 로제");
+            });
+        });
+
+               
+
+    </script>
+
+</head>
+
+
+
+
+<body>
+    <header>
+        <div class="logo"><a href="#"><img src="img/common/main_logo.png" alt="main_logo"></a></div>
+
+        <div class="sns">
+            <a href="#"><img src="img/common/facebook.png" alt="facebook"></a>
+            <a href="#"><img src="img/common/instagram.png" alt="insta"></a>
+            <a href="#"><img src="img/common/Twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="img/common/Youtube.png" alt="Youtube"></a>
+        </div>
+
+        <div class="seach">
+            <input type="text"><button><img src="img/common/seach.png" alt="seach_icon"></button>
+        </div>
+
+        <div class="menubar"><button class="menu_button"><img src="img/common/menubar.JPG" alt="menubar"></button></div>
+        <div class="menu_exit"><button class="menu_exit_button"><img src="img/common/menu_exit.JPG"
+                    alt="menu_exit"></button></div>
+    </header>
+
+
+
+
+    <div class="menu">
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">BRAND STORY</a></li>
+                <li><a href="#">PRODUCT</a></li>
+                <li><a href="#">EVENT</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <section>
+
+
+        <div class="slidewrap">
+            <input type="radio" name="pos" id="pos1" checked>
+            <input type="radio" name="pos" id="pos2">
+            <input type="radio" name="pos" id="pos3">
+            <ul class="sub_slide">
+                <li><img src="img/sub2/sub_slide_1.jpg" alt=""></li>
+                <li><img src="img/sub2/slide_2.jpg" alt=""></li>
+                <li><img src="img/sub2/sub_slide_3.jpg" alt=""></li>
+            </ul>
+            <p class="sub_slide_button">
+                <label for="pos1">1</label>
+                <label for="pos2">2</label>
+                <label for="pos3">3</label>
+            </p>
+        </div>
+
+
+
+
+        <div class="top_title">
+            <h1>여유를 담은 한잔의 부드러움</h1>
+            <p>Feel the nature in your daily life</p>
+        </div>
+
+        <div id="top_banner">
+            <div class="top_banner_box">
+                <a href="#detail3"><img src="img/sub2/hoegaarden_banner_1.jpg" alt="호가든 맥주"></a>
+                <a class="top_textbox" href="#detail3">
+                    <span>Hoegaarden</span>
+                    <button>Click</button>
+                </a>
+            </div>
+
+            <div class="top_banner_box">
+                <a href="#detail1"><img src="img/sub2/bobobo.jpg" alt="호가든 보타닉"></a>
+                <a class="top_textbox" href="#detail1">
+                    <span>Botanic</span>
+                    <button>Click</button>
+                </a>
+            </div>
+
+            <div class="top_banner_box">
+                <a href="#detail2"><img src="img/sub2/hoegaarden_banner_3.jpg" alt="호가든 로제"></a>
+                <a class="top_textbox" href="#detail2">
+                    <span>Rosee</span>
+                    <button>Click</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="top_button">
+            <button id="top_button_box">
+                <a href="#detail3"><p>호가든</p></a>
+                <!-- <a class="top_button_textbox" href="#detail3">
+                <span>호가든 제품으로<br>이동합니다</span>
+                </a> -->
+            </button>
+
+            <button id="top_button_box">
+                <a href="#detail1"><p>호가든 보타닉</p></a>
+            </button>
+
+            <button id="top_button_box">
+                <a href="#detail2"><p>호가든 로제</p></a>
+            </button>
+        </div>
+
+
+        <div id="detail3">
+            <video src="video/hoegaarden.mp4" loop muted autoplay></video>
+
+
+            <div id="hoegaarden_title">
+                <p>오리지널 벨기에 화이트 에일 밀맥주!</p>
+                <h3><span>"</span>호가든<span>"</span></h3>
+            </div>
+
+
+            <div class="body_box_1">
+
+                <img src="img/sub2/product_img_hoegaarden.jpg" alt="">
+                <h3>Hoegaarden</h3>
+                <p>호가든 한 잔과 함께 봄처럼, 녹아내리다</p>
+            </div>
+
+            <div class="body_bottom_box_1">
+                <p>Hoegaarden</p>
+                <div id="img_box">
+
+                    <img src="img/sub2/product_img_hoegaarden_2.jpg" alt="">
+                    <img src="img/sub2/product_img_hoegaarden_can.png" alt="">
+                    <img src="img/sub2/product_img_hoegaarden_3.jpg" alt="">
+
+                </div>
+            </div>
+
+            <div class="product_box_1">
+                <h1>호가든</h1>
+                <h2>정통 벨기에 밀맥주</h2>
+                <h3><sup>●</sup> 종류 : Belgian White Ale(밀맥주) <sup>●</sup> ABV. : 4.9</h3>
+                <div class="product_line_2">
+                    <p>호가든은 보리, 홉, 물만을 사용하는 독일의 ‘맥주 순수령’과는 달리
+                        약초, 허브, 과일 등을 사용해 다양한 맛의 맥주를 개발한
+                        벨기에 사람들의 창의성과 오랜 정통 기법의 만남으로 탄생한 맥주.
+
+                        호가든은 밀, 코리엔더 씨드, 오렌지 필을 사용해
+                        매혹적이고 은은한 향이 특징이며,
+                        특유의 부드럽고 풍성한 맛과 구름거품이 특징인 맥주입니다.
+
+                        세계적인 맥주 품평회 ‘월드 비어컵 어워드 (World Beer Cup® Award)Belgian Style Witbier’
+                        카테고리에서 총 9번 수상을 받은 세계적으로 인정받은 맥주.(1996, 2002, 2004, 2006, 2008, 2016년 금상 수상)</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        <div id="detail1">
+            <video src="video/hoegaarden_botanic.mp4" loop muted autoplay></video>
+
+
+            <div id="botanic_title">
+                <p>첨 맛보는 허브티같은 밀맥주!</p>
+                <h3><span>"</span>호가든 보타닉<span>"</span></h3>
+            </div>
+
+
+            <div class="body_box">
+
+                <img src="img/sub2/product_img_botanic.jpg" alt="">
+                <h3>Hoegaarden botanic</h3>
+                <p>호가든 보타닉 봄을 보태다</p>
+            </div>
+
+            <div class="body_bottom_box">
+                <p>Hoegaarden Botanic</p>
+                <div id="img_box">
+
+                    <img src="img/sub2/product_img_botanic_2.jpg" alt="">
+                    <img src="img/sub2/product_img_botanic_can.png" alt="">
+                    <img src="img/sub2/product_img_botanic_3.jpg" alt="">
+
+                </div>
+            </div>
+
+            <div class="product_box">
+                <h1>호가든 보타닉</h1>
+                <h2>2.5% 낮은 도수의 허브향 맥주</h2>
+                <h3><sup>●</sup> 종류 : Belgian White Ale(밀맥주) <sup>●</sup> ABV. : 2.5%</h3>
+                <div class="product_line">
+                    <p>전세계 최초, 한국에서 가장 먼저 출시하는 신제품 <span>'호가든 보타닉 레몬그라스 & 시트러스 제스트'</span>를 만나보세요.
+
+                        레몬그라스와 시트러스 제스트 추출물의 조화로운 블랜딩으로 입안 가득 깔끔함과 산뜻함을 선사하는 가벼운 밀맥주.
+
+                        친구들과의 편안한 만남, 혹은 나만의 여유를 즐기고 싶을 때 어울리는 상쾌한 맥주로, 낮은 도수와 향긋한 허브 향으로 부담없이 즐길 수 있습니다.</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div id="detail2">
+            <video src="video/rosee.mp4" loop muted autoplay></video>
+
+
+            <div id="rosee_title">
+                <p>상큼한 라즈베리 풍미 가득</p>
+                <h3><span>"</span>호가든 로제<span>"</span></h3>
+            </div>
+
+
+            <div class="body_box_2">
+
+                <img src="img/sub2/product_img_rosee.jpg" alt="">
+                <h3>Hoegaarden Rosee</h3>
+                <p>향기로운 풍미와 영롱한 핑크빛의 호가든 로제</p>
+            </div>
+
+            <div class="body_bottom_box_2">
+                <p>Hoegaarden Rosee</p>
+                <div id="img_box">
+
+                    <img src="img/sub2/product_img_rosee_2.jpg" alt="">
+                    <img src="img/sub2/product_img_rosee_can.png" alt="">
+                    <img src="img/sub2/product_img_rosee_3.jpg" alt="">
+
+                </div>
+            </div>
+
+            <div class="product_box_2">
+                <h1>호가든 로제</h1>
+                <h2>오리지널 밀맥주와 달콤한 라즈베리의 만남</h2>
+                <h3><sup>●</sup> 종류 : Belgian White Ale(밀맥주) <sup>●</sup> ABV. : 3.5%</h3>
+                <div class="product_line_2">
+                    <p>호가든 로제는 호가든 고유의 밀맥주에 라즈베리의 달콤함이 어우러진 핑크빛 맥주입니다. 유리잔 대신 과일잼 용기에 맥주를 담아 마셨다는 벨기에 전통 설화에 착안해 탄생된
+                        맥주입니다.
+
+                        3%의 낮은 알코올 도수로 언제 어디서든 가볍게 즐길 수 있고,
+                        호가든 오리지널의 부드러운 맛과 라즈베리의
+                        달콤한 풍미의 조화를 느껴보세요.</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </section>
+
+
+    <footer>
+        <a href="index.html"><img src="img/common/main_logo.png" alt="under_logo"></a>
+        <p class="foot_name">
+            © HOEGAARDEN 2021. | All Rights Reserved. | Privacy Policy | Terms and Conditions
+        </p><br>
+        <p>
+
+            부서명 : 정보전략팀 | 책임자 : 박찬주 CISO(Chief Information Security Officer) <br>
+            전화번호 : (02)2149-5000 | 이메일 : privacy@ob.co.kr <br><br>
+            경고: 지나친 음주는 뇌졸중, 기억력 손상이나 치매를 유발합니다. 임신 중 음주는 기형아 출생 위험을 높입니다. 만 19세 미만 컨텐츠 공유 금지.
+        </p>
+    </footer>
+</body>
